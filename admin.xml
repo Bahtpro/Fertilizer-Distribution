@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/white"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:padding="16dp"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="354dp"
+		android:layout_height="wrap_content"
+		android:fontFamily="@font/calligraffitti"
+		android:padding="20dp"
+		android:text="ADMIN LOGIN"
+		android:textAlignment="center"
+		android:textColor="@color/ExtraFontColor"
+		android:textSize="40dp" />
+
+	<androidx.cardview.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="310dp"
+		app:cardCornerRadius="28dp"
+		app:cardElevation="5dp"
+		app:cardUseCompatPadding="true">
+
+		<ImageView
+			android:layout_width="335dp"
+			android:layout_height="match_parent"
+			android:scaleType="centerCrop"
+			android:src="@drawable/adminn" />
+	</androidx.cardview.widget.CardView>
+
+	<EditText
+		android:id="@+id/usernameEditText"
+		android:layout_width="match_parent"
+		android:layout_height="63dp"
+		android:hint="Username" />
+
+	<EditText
+		android:id="@+id/passwordEditText"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/usernameEditText"
+		android:hint="Password"
+		android:inputType="textPassword" />
+
+	<Button
+		android:id="@+id/loginButton"
+		android:layout_width="match_parent"
+		android:padding="10dp"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/passwordEditText"
+		android:text="Login" />
+
+</LinearLayout>

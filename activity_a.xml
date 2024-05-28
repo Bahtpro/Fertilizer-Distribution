@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorDeepPurple">
+
+    <TextView
+        android:id="@+id/text_view_admin_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:text="welcome "
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorDeepOrange"
+        android:textSize="@dimen/text_size_medium" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ppple"
+            android:scaleType="centerCrop" />
+    </androidx.cardview.widget.CardView>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_below="@id/text_view_admin_title"
+        android:columnCount="2"
+        android:rowCount="3">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_add_car"
+            style="@style/cardViewTheme"
+            app:cardBackgroundColor="@color/colorTeal"
+            app:cardCornerRadius="@dimen/admin_card_view_radius"
+            tools:ignore="MissingClass">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/small_spacing"
+                    android:text="ORDER FERTILIZER"
+                    android:textAllCaps="true" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/bookticket2"
+            style="@style/cardViewTheme"
+            app:cardBackgroundColor="@color/colorTeal"
+            app:cardCornerRadius="@dimen/admin_card_view_radius"
+            tools:ignore="MissingClass">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/small_spacing"
+                    android:text="VIEW YOUR ORDER"
+                    android:textAllCaps="true" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/info"
+            style="@style/cardViewTheme"
+            app:cardBackgroundColor="@color/colorTeal"
+            app:cardCornerRadius="@dimen/admin_card_view_radius"
+            tools:ignore="MissingClass">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/small_spacing"
+                    android:text="Fertilizer Essentials"
+                    android:textAllCaps="true" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/supp"
+            style="@style/cardViewTheme"
+            app:cardBackgroundColor="@color/colorTeal"
+            app:cardCornerRadius="@dimen/admin_card_view_radius"
+            tools:ignore="MissingClass">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/small_spacing"
+                    android:text="Support"
+                    android:textAllCaps="true" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+</LinearLayout>

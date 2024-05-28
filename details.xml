@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content"
+        android:background="@color/lightgreen"
+        android:orientation="vertical"
+        tools:context=".Details">
+
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="                Fertilizer Essentials"
+            android:textColor="#F4004D"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/download" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                                                Introduction"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/ExtraFontColor"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="The fertilizer distribution app is a revolutionary tool designed to streamline and enhance the process of distributing fertilizers to farmers. This innovative application leverages modern technology to efficiently manage the distribution of fertilizers, ensuring that farmers receive the right fertilizers at the right time, ultimately improving crop yields and promoting sustainable agriculture practices."
+            android:textColor="@color/common_border_color"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nitrogen Fertilizers"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/ExtraFontColor"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Nitrogen fertilizer is a type of fertilizer that provides plants with the essential nutrient nitrogen, which is crucial for their growth and development. Nitrogen is a key component of chlorophyll, the pigment that gives plants their green color and is essential for photosynthesis, the process by which plants convert sunlight into energy."
+            android:textColor="@color/common_border_color" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In stock"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/ExtraFontColor"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="         Urea\nAmmonium Nitrate\nAmmonium Sulfate\nAnhydrous Ammonia\nNitrate of Soda (Sodium Nitrate)"
+            android:textColor="@color/common_border_color" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phosphorus Fertilizers"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/ExtraFontColor"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Phosphorus fertilizers are essential for promoting healthy plant growth and development. Phosphorus is a vital nutrient that plays a key role in various physiological processes within plants, including energy transfer, photosynthesis, and nutrient transport."
+            android:textColor="@color/common_border_color" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In stock"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/ExtraFontColor"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Single Superphosphate (SSP)\nTriple Superphosphate (TSP)\nTriple Superphosphate (TSP)\nMonoammonium Phosphate (MAP)\nRock Phosphate"
+            android:textColor="@color/common_border_color" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Potassium Fertilizers"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/ExtraFontColor"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Potassium fertilizers are essential for plant growth and development, playing a crucial role in various physiological processes. Potassium is involved in the regulation of water uptake and loss, enzyme activation, photosynthesis, and protein synthesis in plants. They help improve crop quality, increase yields, and enhance the nutritional value of the produce."
+            android:textColor="@color/common_border_color" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In stock"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/ExtraFontColor"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Potassium Chloride (Muriate of Potash)\nPotassium Sulfate\nPotassium Nitrate\nPotassium Magnesium Sulfate (Sulfate of Potash Magnesia)\nPotassium Carbonate"
+            android:textColor="@color/common_border_color" />
+
+    </LinearLayout>
+</ScrollView>

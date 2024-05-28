@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/lightgreen"
+    tools:context=".support"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="254dp"
+        android:layout_height="91dp"
+        android:fontFamily="@font/calligraffitti"
+        android:padding="20dp"
+        android:text="Contact us"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/ExtraFontColor"
+        android:textSize="40dp" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="310dp"
+        app:cardCornerRadius="28dp"
+        android:layout_marginStart="25dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:layout_width="335dp"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/suppt" />
+    </androidx.cardview.widget.CardView>
+
+
+    <EditText
+        android:id="@+id/recipientEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address" />
+
+    <EditText
+        android:id="@+id/subjectEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recipientEditText"
+        android:hint="Subject" />
+
+    <EditText
+        android:id="@+id/messageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subjectEditText"
+        android:hint="Message Body" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:background="@color/BackgroundColor"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/messageEditText"
+        android:text="Send Email and Store Data" />
+
+</LinearLayout>

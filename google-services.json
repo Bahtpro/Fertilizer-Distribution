@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "983319552514",
+    "project_id": "fertilizer-distribution-f57f2",
+    "storage_bucket": "fertilizer-distribution-f57f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983319552514:android:477e89d8947f32452ebd1b",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZOb5d7lc-ehP5LzFkkwbcDRI5X2kEFvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
